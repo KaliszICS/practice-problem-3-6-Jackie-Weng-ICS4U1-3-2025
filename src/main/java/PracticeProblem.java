@@ -25,7 +25,7 @@ public class PracticeProblem {
         // return -1
     }
 
-    static int searchMazeMoves(String[][] arr) {
+    static int searchMazeMoves(String[][] arr) { //
         greeklabyrinth = arr;
         paths = 0;
         int min = search(arr.length - 1, 0);
